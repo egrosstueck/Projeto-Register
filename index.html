@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style21.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;1,200&display=swap"
+    rel="stylesheet">
+  <title>Desafio 21html </title>
+</head>
+
+<body>
+  <div class="container">
+    <h2 class="title-register">Register</h2>
+    <form action="" method="post" enctype="multipart/form-data">
+
+
+
+      <div>
+        <label>Name:
+          <input autocomplete="name" placeholder="Digite seu nome" required="required">
+        </label>
+      </div>
+
+
+      <div>
+        <label>Email:
+          <input type="email">
+        </label>
+      </div>
+
+
+      <div>
+        <label>Age:
+          <input type="number" min="12">
+        </label>
+      </div>
+
+
+      <div>
+        <label>Calender:
+          <input type="date">
+        </label>
+      </div>
+
+
+
+      <label>Where do you have an account:
+        <div>
+
+          <label class="input-inline">
+            <input type="checkbox" name="facebook">
+            Instagram
+          </label>
+
+          <label class="input-inline">
+            <input type="checkbox" name="facebook">
+            Facebook
+          </label>
+
+          <label class="input-inline">
+            <input type="checkbox" name="facebook">
+            Youtube
+          </label>
+        </div>
+      </label>
+
+
+
+
+      <label>
+        Gender:
+        <div>
+          <label class="input-inline">
+            <input type="radio" name="sexo" value="m">
+            Man
+          </label>
+
+          <label class="input-inline">
+            <input type="radio" name="sexo" value="w">
+            Woman
+          </label>
+        </div>
+      </label>
+
+
+
+      <div>
+        <label for="">Eye color:
+          <input type="color">
+        </label>
+      </div>
+
+
+      <div>
+        <label for="">Biography
+          <textarea name="biography" placeholder="Type your biography" required="required" cols="20"
+            rows="1"></textarea>
+        </label>
+      </div>
+
+      <div>
+        <label>Profile picture
+          <input class="input-block" type="file" accept="image/*" multiple>
+        </label>
+
+      </div>
+
+
+      <div>
+        <label>Phone Number
+          <input class="input-block" type="tel">
+        </label>
+
+      </div>
+
+      <div>
+        <label>Facebook Link
+          <input class="input-block" type="url">
+        </label>
+      </div>
+
+      <div>
+        <label>Password
+          <input class="input-block" type="password" minlength="6" maxlength="8">
+        </label>
+      </div>
+      <button class="button-clear" type="reset">Clean</button>
+      <button class="button-submit" type="submit">Send</button>
+    </form>
+  </div>
+</body>
+
+</html>
